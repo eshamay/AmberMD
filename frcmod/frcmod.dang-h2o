@@ -1,0 +1,16 @@
+Parameters taken from Chang+Dang JCP 1996,104(17),p6772
+MASS
+OW     16.0      0.528
+HW     1.00      0.170
+ 
+BOND
+OW-HW  300.0    1.0000
+HW-HW  553.0    1.6400
+ 
+ANGL
+HW-OW-HW	50.0	109.5
+
+NONB
+  OW	3.205	0.16
+  HW	0.000	0.00
+

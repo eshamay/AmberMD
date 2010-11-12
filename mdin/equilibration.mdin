@@ -1,0 +1,11 @@
+
+Running an equilibration
+ &cntrl
+   NTX=1, IWRAP=1, imin=0, nmropt=0,
+   NTF=2, NTC=2, NTB=1, IPOL=1, CUT=10.0,
+   ntt=3, gamma_ln=2.0, TEMPI=0.0, TEMP0=298.0,
+   NTPR=10000, ntwr=10000, ntwx=200, NSTLIM=2000000, DT=0.001, T=0.0
+ /
+ &ewald
+   ew_type=0, indmeth=3, diptau=9.99, irstdip=0,
+ /

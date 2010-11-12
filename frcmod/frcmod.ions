@@ -1,0 +1,11 @@
+Parameters for a set of ions from various sources
+MASS
+IP	22.99	0.240		Sodium
+IC  35.45	3.250		Chloride
+IB	79.90	4.530		Bromine
+
+NONB
+IP	2.350	0.130
+IC	3.199	0.180
+IB	3.854	0.125
+

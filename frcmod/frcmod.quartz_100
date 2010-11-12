@@ -1,0 +1,105 @@
+A set of parameters for a silica (SiO2) slab J. Chem. Phys. 127, 204704 (2007)-HQ is the capping hydrogen on the silica surface, and OH is the hydroxyl oxygen poking out from the slab connecting to the hydrogen.
+MASS
+OH    16.000		! hydroxyl O
+OS    16.000		! internal O-ester
+SI    28.086		! internal Si
+SH	  28.086		! terminal Si connected to an H
+HO	   1.008		! hydroxyl H
+HA	   1.008		! aliphatic H
+
+BOND
+SI-OS	302.000		1.698
+SI-OH	325.000		1.68
+SH-OS	304.000		1.682
+HO-OH	1106.00		0.975
+SI-HA	0.0		1.489
+HA-SH	408.000		1.489
+SI-SI	0.0	0.0
+SI-SH	0.0	0.0
+OH-OH	0.0	0.0
+SH-SH	0.0	0.0
+SI-HO	0.0	0.0
+OS-HA	0.0	0.0
+OS-HO	0.0	0.0
+
+ANGLE
+HO-OH-HO	0.0 0.0
+OH-HO-OH	0.0 0.0
+SI-OS-HA	0.0	0.0
+SI-OS-HO	0.0	0.0
+OS-SI-OS	30.000	117.00
+OS-SH-OS	30.000	121.50
+SI-OS-SH	34.000	150.50
+SI-OS-SI	34.000	150.00
+SH-OS-SH	34.000	159.00
+HA-SH-HA	30.000	119.00
+HA-SH-OS	44.000	118.00
+SI-OH-HO	34.000	122.50
+OS-SI-OH	32.000	126.00
+OH-SI-OH	30.000	117.00
+OS-SI-HA	44.000	118.00
+SI-OH-OH 0.0 0.0
+SI-SI-HO 0.0 0.0
+SI-OH-SI 0.0 0.0
+SI-SI-SI 0.0 0.0
+SI-SI-OS 0.0 0.0
+SI-SI-OH 0.0 0.0
+SI-SI-SI 0.0 0.0
+SI-SH-SH 0.0 0.0
+OS-SI-SI 0.0 0.0
+OS-SI-SH 0.0 0.0
+OS-SH-SH 0.0 0.0
+OH-SI-SI 0.0 0.0
+SH-SI-OS 0.0 0.0
+SH-SH-OS 0.0 0.0
+SH-SH-HA 0.0 0.0
+
+DIHE
+OS-SI-OS-SH   1		0.18000 	0.0 	1.
+OS-SI-OS-SI   1		0.18000 	0.0 	1.
+OS-SH-OS-SI   1		0.18000 	0.0 	1.
+SH-SI-OS-SH   1		0.12000 	0.0 	1.
+HA-SH-OS-SI   1		0.20000 	0.0 	1.
+HA-SH-OS-SH   1		0.20000 	0.0 	1.
+OS-SI-OH-HO   1		0.30000 	0.0 	1.
+OH-SI-OH-HO   1		0.35000 	0.0 	1.
+SH-OS-SH-OS   1		0.18000 	0.0 	1.
+SI-OS-SI-HA   1		0.20000 	0.0 	1.
+SI-OS-SI-OH   1		0.18000 	0.0 	1.
+OH-HO-OH-HO   1   0.0   0.0   1.
+SI-OH-HO-OH	  1   0.0   0.0   1.
+OH-HO-OH-SI	  1   0.0   0.0   1.
+OS-SI-OS-HO	  1   0.0   0.0   1.
+OH-SI-OS-HO	  1   0.0   0.0   1.
+SI-SI-OS-SI   1   0.0   0.0   1.
+SI-SI-SI-OS   1   0.0   0.0   1.
+SI-SI-SI-OH   1   0.0   0.0   1.
+SI-SI-OS-SI   1   0.0   0.0   1.
+SI-SI-OH-HO   1   0.0   0.0   1.
+SI-OS-SI-SH   1   0.0   0.0   1.
+SI-OS-SI-SI   1   0.0   0.0   1.
+SI-OS-SH-SH   1   0.0   0.0   1.
+SI-SH-SH-OS   1   0.0   0.0   1.
+SI-SH-SH-HA   1   0.0   0.0   1.
+OH-SI-OH-SI   1   0.0   0.0   1.
+OH-SI-SI-OH   1   0.0   0.0   1.
+OH-SI-OH-OH   1   0.0   0.0   1.
+OH-SI-SI-HO   1   0.0   0.0   1.
+SH-OS-SI-SI   1   0.0   0.0   1.
+SH-SI-OS-SI   1   0.0   0.0   1.
+SH-SH-OS-SI   1   0.0   0.0   1.
+OS-SI-SI-SI   1   0.0   0.0   1.
+OS-SI-SI-OH   1   0.0   0.0   1.
+OS-SI-SH-SH   1   0.0   0.0   1.
+OS-SI-OH-SI   1   0.0   0.0   1.
+OS-SI-SI-HO   1   0.0   0.0   1.
+OS-SI-OH-OH   1   0.0   0.0   1.
+
+NONB
+OH    3.553		0.155
+OS    3.553		0.155
+SI    0.000		0.000
+SH	  0.000		0.000
+HO	  0.2245	0.0460
+HA	  1.3200	0.0220
+

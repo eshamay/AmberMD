@@ -1,0 +1,13 @@
+
+General minimization script
+ &cntrl
+  IMIN=1, NMROPT=0,
+  IWRAP=1, NTF=1, NTC=1, NTB=1, IPOL=1,
+  NTPR = 250,
+  NTMIN = 1, WATNAM='h2o ',
+  MAXCYC = 2000, NCYC=500, jfastw=0,
+  CUT = 10.0
+ /
+ &ewald
+  ew_type=0, indmeth=3, maxiter=50, diptau=9.99, irstdip=0
+ /

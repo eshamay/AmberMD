@@ -1,0 +1,19 @@
+This is the additional/replacement parameter set for nitrate ion NO3- (from JPC-A 2007,111,16,3091 sets A&B & JCP,120,19(2004)) (bond constants scaled to 70% & 80%)
+MASS
+NO    14.000     0.000
+ON    16.000     1.400
+ 
+BOND
+NO-ON   884.124		1.27
+ON-ON	300.000		2.197
+
+ANGLE
+ON-NO-ON	261.07		120.00
+
+DIHE
+ON-NO-ON-ON	1	189.83664	0.0	1
+
+NONB
+NO 3.287	0.286
+ON 2.993	0.910
+

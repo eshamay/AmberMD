@@ -1,0 +1,32 @@
+Parameters from JPC B 1999,103,3885 and Macromol. 2003,36,5331
+MASS
+CT 12.01	0.878
+HC 1.008
+
+BOND
+CT-CT  310.0    1.526       JCC,7,(1986),230; AA, SUGARS
+CT-HC  340.0    1.090       changed from 331 bsd on NMA nmodes; AA, SUGARS
+SI-CT  220.0	1.85
+
+ANGLE
+SI-CT-CT	82.1	109.50
+SI-CT-HC	78.8	109.50
+CT-SI-OH	164.0	109.50
+HC-CT-HC    35.0      109.50
+CT-CT-CT    40.0      109.50
+CT-CT-HC    50.0      109.50    changed based on NMA nmodes
+
+DIHE
+CT-CT-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+HC-CT-CT-HC   1    0.15          0.0             3.         Junmei et al, 1999
+HC-CT-CT-CT   1    0.16          0.0             3.         Junmei et al, 1999
+CT-CT-SI-OH   1    0.0667		 0.0			 3.0
+HC-CT-SI-OH   1    0.0667		 0.0			 3.0
+CT-SI-OH-HO   1    0.4  		 0.0			 2.0
+
+NONB
+  CT	1.9080  0.1094             Spellmeyer
+  HC	1.4870	0.0157
+

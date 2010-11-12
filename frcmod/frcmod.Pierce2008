@@ -1,0 +1,36 @@
+Parameters from Pierce2008 - THE JOURNAL OF CHEMICAL PHYSICS 128, 214903,͑2088͒
+MASS
+CT 	12.01		0.878
+HC 	1.008		
+F	19.0
+
+BOND
+CT-CT  	899.0    1.529
+CT-HC  	682.0    1.090
+CT-F	367.0	 1.332
+
+ANGLE
+CT-CT-CT    108.35	112.7
+CT-CT-HC    86.50	110.7
+HC-CT-HC    77.00	107.8
+CT-CT-F		50.00	109.5
+F-CT-F		77.00	109.1
+
+DIHE
+CT-CT-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+HC-CT-CT-HC   1    0.15          0.0             3.         Junmei et al, 1999
+HC-CT-CT-CT   1    0.16          0.0             3.         Junmei et al, 1999
+C2-CT-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+C2-CT-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+C2-CT-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+C3-C2-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+C3-C2-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+C3-C2-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+
+NONB
+  CT	2.2900  0.1094             Spellmeyer
+  HC	1.4870	0.0157
+  F		2.95	0.053
+

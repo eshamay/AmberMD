@@ -1,0 +1,17 @@
+This is the replacement parameter set for flexible + polarizable water based on the ferguson 1995 reparameterization
+MASS
+OW     16.0      0.528
+HW     1.008     0.170
+ 
+BOND
+OW-HW  547.5    1.0000	-903.375      SPC/E and POL3 water
+ 
+ANGLE
+HW-OW-HW	49.9	109.5
+
+DIHE
+
+NONBON
+  OW       1.798    0.1505
+  HW       0.0      0.0
+

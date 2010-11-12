@@ -1,0 +1,39 @@
+Parameters from the AMBER FF parm99.dat for pure alkanes (fully saturated)
+MASS
+C2 14.026        0.878               sp3 aliphatic C(UA model CH2)
+C3 15.034        0.878               sp3 aliphatic C(UA model CH3)
+CT 12.01         0.878               sp3 aliphatic C (all-atom)
+HC 1.008         0.135               H aliph. bond. to C without electrwd.group
+
+BOND
+CT-CT  310.0    1.526       JCC,7,(1986),230; AA, SUGARS
+CT-HC  340.0    1.090       changed from 331 bsd on NMA nmodes; AA, SUGARS
+C2-CT  310.0    1.526       JCC,7,(1986),230; AA, SUGARS
+C2-C3  310.0    1.526       JCC,7,(1986),230; AA, SUGARS
+
+ANGLE
+CT-CT-CT    40.0      109.50
+HC-CT-HC    35.0      109.50
+CT-CT-HC    50.0      109.50    changed based on NMA nmodes
+C3-C2-CT    40.0      109.50
+C2-CT-CT    40.0      109.50
+
+DIHE
+CT-CT-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+HC-CT-CT-HC   1    0.15          0.0             3.         Junmei et al, 1999
+HC-CT-CT-CT   1    0.16          0.0             3.         Junmei et al, 1999
+C2-CT-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+C2-CT-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+C2-CT-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+C3-C2-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+C3-C2-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+C3-C2-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+
+NONB
+  CT          1.9080  0.1094             Spellmeyer
+  HC          1.4870  0.0157             OPLS
+  C2          2.0580  0.1094             sp3 aliphetic carbon (UA model CH2)
+  C3          2.0580  0.1494             sp3 aliphetic carbon (UA model CH3)
+

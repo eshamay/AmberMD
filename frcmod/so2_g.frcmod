@@ -1,0 +1,15 @@
+remark Bond DATA from DFT calculation non-bonding std Amber types
+MASS
+SO    31.972   3.80
+OS    15.995   0.0
+
+BOND
+SO-OS   1477.4  1.439
+
+ANGL
+OS-SO-OS      246.1   119.3
+
+NONB
+SO     2.8510	0.140
+OS     3.4211	0.250
+

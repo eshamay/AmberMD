@@ -1,0 +1,37 @@
+A set of parameters for a silica (SiO2) slab J. Phys. Chem. C, Vol. 112, No. 35, 2008, (or J. Chem. Phys. 127, 204704 (2007)) - HQ is the capping hydrogen on the silica surface, and OH is the hydroxyl oxygen poking out from the slab connecting to the hydrogen.
+MASS
+OB    16.000
+OH    16.000
+SI    28.086
+HQ	   1.008
+
+BOND
+OB-SI   442.645		1.605
+OB-OB		20.0			2.600
+OH-SI 	314.1 		1.426
+OH-HQ		314.1			1.000
+
+ANGLE
+OB-SI-OB	134.432		109.84
+SI-OB-SI	134.258		146.78
+SI-OH-SI	24.2581		146.78
+SI-OH-HQ  47.1      108.16
+OB-OB-SI	134.258		35.50
+OH-SI-OB	134.258		109.80
+
+DIHE
+OB-SI-OB-SI	  1    0.000         0.0             1.
+OH-SI-OB-SI	  1    0.000         0.0             1.
+SI-OB-OB-SI   1    0.000         0.0             1.
+OB-SI-OB-OB   1    0.000       	 0.0             1.
+OH-SI-OB-OB   1    0.000       	 0.0             1.
+OB-SI-OB-OH   1    0.000       	 0.0             1.
+OB-SI-OH-HQ   1    0.16          0.0            -3.
+OB-SI-OH-HQ   1    0.16          0.0             1.
+
+NONB
+  OB	1.51532	0.456757
+  OH	1.68369	0.456757
+  SI	0.000	0.000
+  HQ	0.000	0.000
+

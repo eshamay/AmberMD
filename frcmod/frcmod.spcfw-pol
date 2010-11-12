@@ -1,0 +1,18 @@
+This is the parameter set modified from SPC/Fw of Wu, Tepper & Voth (preprint). Check also Zhu1991, JPC, 1991, 95, 6211
+MASS
+OW    16.0	0.528
+HW	  1.008	0.170
+ 
+BOND
+OW-HW  529.58   0.9572      SPC/E water
+HW-HW  553.0    1.6330      SPC/E water
+ 
+ANGLE
+HW-OW-HW   37.95    104.52
+
+DIHE
+
+NONBON
+  OW     1.7767	 0.1554
+  HW	   0.0000	 0.0000
+

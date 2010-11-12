@@ -1,0 +1,17 @@
+Using the parameters from Dang2010 - JPC-B (2010) iss 114, no. 21, pp 7245-7249
+MASS
+OS     16.0       0.0
+SO     32.065     3.8
+ 
+BOND
+SO-OS				317.4   1.476
+ 
+ANGLE
+OS-SO-OS		123.7		114.8
+
+DIHE
+
+NONBON
+  OS       1.9200		0.250
+  SO       1.6000		0.140
+

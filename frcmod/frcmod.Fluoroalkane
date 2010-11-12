@@ -1,0 +1,24 @@
+Parameters from DFT calculations for geometry, OPLS, and Chen2001
+MASS
+CF	12.01	0.878
+F	19.0	0.320
+
+BOND
+CF-CF  	310.0    1.585
+F -CF  	367.0    1.380 
+
+ANGLE
+CF-CF-CF    108.35	112.7
+CF-CF-F		50.00	109.5
+F -CF-F		77.00	109.1
+
+DIHE
+CF-CF-CF-CF   1    0.18          0.0            -3.         Junmei et al, 1999
+CF-CF-CF-CF   1    0.25        180.0            -2.         Junmei et al, 1999
+CF-CF-CF-CF   1    0.20        180.0             1.         Junmei et al, 1999
+F- CF-CF-F     1    0.15          0.0             3.         Junmei et al, 1999
+F- CF-CF-CF    1    0.16          0.0             3.         Junmei et al, 1999
+
+NONB
+  	CF	1.9080  0.1094             Spellmeyer
+    F	1.75    0.061              Gough et al. JCC 13,(1992),963.

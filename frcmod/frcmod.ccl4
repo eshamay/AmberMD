@@ -1,0 +1,17 @@
+Parameter from Dang1997
+MASS
+CT   	12.010		0.878
+CL    	35.453		1.910
+ 
+BOND
+CT-CL   232.0		1.770
+CL-CL	232.0		2.910
+
+ANGLE
+CL-CT-CL   50.0		109.47
+CL-CL-CL   50.0		60.0
+
+NONB
+CT	1.908	0.100
+CL	1.948	0.260
+

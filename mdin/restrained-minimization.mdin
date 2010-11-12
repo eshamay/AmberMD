@@ -1,0 +1,15 @@
+
+ restrained atom minimization script
+ &cntrl
+  IMIN=1, NMROPT=0, 
+  NTR=1, RESTRAINT_WT=1.0, restraintmask='@%SI',
+  IWRAP=1, NTF=2, NTC=1, NTB=1, IPOL=0,
+  NTPR=100, NTWR=100,
+  SCEE=500,
+  NTMIN=1,
+  MAXCYC=10000, NCYC=5000,
+  CUT=10.0,
+ /
+ &ewald
+  ew_type=0, indmeth=3, maxiter=50, diptau=9.99, irstdip=0
+ /

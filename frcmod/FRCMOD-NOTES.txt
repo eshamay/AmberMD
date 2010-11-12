@@ -1,0 +1,11 @@
+Published values for sigma (the lennard jones non-bond radius) can not be used directly in Amber. Typically the conversion from the C12 + C6 parameters looks like:
+
+	sigma = (C12/r^12 - C6/r^6) ^ (1/6)
+
+however, amber calculates non-bonded parameters by using 1/2 the radius/distance between particles, with the following relation:
+
+	sigma_amber = (2*C12/r^12 - C6/r^6) ^ (1/6) / 2
+
+note the added multiple of 2 (e.g. 2*C12) and the division by two of the entire value to represent half the distance
+
+Thus, sigma_amber = 2^(1/6) / 2 * sigma_other
