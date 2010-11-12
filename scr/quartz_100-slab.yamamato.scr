@@ -1,0 +1,13 @@
+loadoff ../lib/yamamoto.lib
+
+loadamberparams ../frcmod/frcmod.yamamoto
+
+#sio2slab = loadpdb ../pdb/quartz_100-slab+H-1.pdb
+sio2slab = loadpdb ../pdb/yamamoto-slab.pdb
+set sio2slab box {40.0 90.0 40.0}
+
+check sio2slab
+
+saveamberparmpol sio2slab ../prmtop/quartz-yamamoto.prmtop ../mdcrd/quartz-yamamoto.mdcrd
+quit
+

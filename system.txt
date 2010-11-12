@@ -1,0 +1,8 @@
+h2o-so2:
+	900x h2o and 50x so2 - represent a water phase with a gas of SO2 (at STP, 1 mol/L) above the surface.
+	Simulated at 300K
+	1.0 fs timesteps, equil coords pulled out every 250 steps for 1ns in order to watch the so2 uptake onto the surface
+
+h2o-so2.cold:
+	Same as h2o-so2 system, but simulated at 273K
+

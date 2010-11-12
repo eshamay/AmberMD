@@ -1,0 +1,12 @@
+loadoff ../lib/pol3.lib
+
+loadamberparams ../frcmod/frcmod.pol3
+
+airh2o = loadpdb ../pdb/h2o-so2-box.pdb
+set airh2o box {30.0 60.0 30.0}
+
+check airh2o
+
+saveamberparmpol airh2o ../prmtop/pol3-test.prmtop ../mdcrd/pol3-test.mdcrd
+quit
+

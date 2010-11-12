@@ -1,0 +1,8 @@
+beginning job id 8438.qcprivate.cluster (pbs.equil) on host n29.cluster
+nodefile is set as /var/spool/torque/aux//8438.qcprivate.cluster
+running on 1 processors
+Running an equilibration
+Project Name = air-h2o
+Input coordinates: /home/eshamay/md/amber/restrt/air-h2o.min.rst7
+Output directory: /home/eshamay/md/amber
+running on 1 cpus

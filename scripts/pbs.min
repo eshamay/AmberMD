@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#PBS -N minimization
+#PBS -j oe
+#PBS -o min.log
+###PBS -m abe
+#PBS -q normal
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=08:00:00
+
+# go to proper location
+cd $PBS_O_WORKDIR
+echo beginning job id $PBS_JOBID '('$PBS_JOBNAME')' on host `hostname`
+
+# get processor info
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo running on $NPROCS processors
+
+# run some jobs (in this case, just sleep for 60 seconds)
+time \
+	   ./minimization $SYSTEM

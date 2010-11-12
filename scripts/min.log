@@ -1,0 +1,11 @@
+beginning job id 10666.qcprivate.cluster (minimization) on host n09.cluster
+running on 1 processors
+Running a minimization
+Project Name: pol3-test
+Input coordinates: /home/eshamay/md/amber/mdcrd/pol3-test.mdcrd
+Output base directory: /home/eshamay/md/amber
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    0000003BBC40DE80  Unknown               Unknown  Unknown
+libpthread.so.0    0000003BBC40DD5D  Unknown               Unknown  Unknown
+libguide.so        00002B1D2F8ADD6A  Unknown               Unknown  Unknown

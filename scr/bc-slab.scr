@@ -1,0 +1,17 @@
+loadoff ../lib/qtz.lib
+#loadoff ../lib/ods.lib
+#loadoff ../lib/pol3.lib
+
+#loadamberparams ../frcmod/frcmod.yamamato
+#loadamberparams ../frcmod/frcmod.ods
+#loadamberparams ../frcmod/frcmod.pol3
+loadamberparams ../frcmod/frcmod.qtz
+
+bcslab = loadpdb ../pdb/bc-slab.pdb
+set bcslab box {60.0 90.0 60.0}
+
+check bcslab
+
+saveamberparmpol bcslab ../prmtop/bc-slab.prmtop ../mdcrd/bc-slab.mdcrd
+quit
+

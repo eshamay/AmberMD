@@ -1,0 +1,38 @@
+!!index array str
+ "qzo"
+!entry.qzo.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "O" "OQ" 0 1 131075 1 8 -0.641500
+!entry.qzo.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "O" "OQ" 0 -1 0.0
+!entry.qzo.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qzo.unit.childsequence single int
+ 2
+!entry.qzo.unit.connect array int
+ 0
+ 0
+!entry.qzo.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+!entry.qzo.unit.name single str
+ ""
+!entry.qzo.unit.positions table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.qzo.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.qzo.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "qzo" 1 2 1 "?" 0
+!entry.qzo.unit.residuesPdbSequenceNumber array int
+ 1
+!entry.qzo.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qzo.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0

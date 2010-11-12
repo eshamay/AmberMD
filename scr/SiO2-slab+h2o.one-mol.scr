@@ -1,0 +1,15 @@
+loadoff ../lib/pol3.lib
+loadoff ../lib/qtz.lib
+
+loadamberparams ../frcmod/frcmod.pol3
+loadamberparams ../frcmod/frcmod.qtz
+
+#sio2slab = loadpdb ../pdb/SiO2-slab+H.one-mol.pdb
+sio2slab = loadpdb ../pdb/bc-slab.pdb
+#set sio2slab box {29.868 100.0 27.792}
+set sio2slab box {60.0 100.0 60.0}
+
+check sio2slab
+
+saveamberparmpol sio2slab ../prmtop/bc-slab.prmtop ../mdcrd/bc-slab.mdcrd
+quit

@@ -1,0 +1,11 @@
+#source leaprc.ff03
+loadamberparams ../frcmod/frcmod.so2gas
+loadoff ../lib/so2_g.lib
+
+so2gas = loadpdb ../pdb/so2_g_box.pdb
+set so2gas box {125.0 125.0 125.0}
+check so2gas
+
+saveamberparmpol so2gas ../prmtop/so2gas.prmtop ../mdcrd/so2gas.mdcrd
+quit
+

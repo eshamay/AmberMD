@@ -1,0 +1,155 @@
+!!index array str
+ "qsb"
+ "qsh"
+ "qsi"
+ "qso"
+!entry.qsb.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "O" "OH" 0 1 131072 1 8 -0.533000
+ "H" "HQ" 0 1 131072 1 8 0.206000
+!entry.qsb.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "O" "OH" 0 -1 0.0
+ "H" "HQ" 0 -1 0.0
+!entry.qsb.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qsb.unit.childsequence single int
+ 2
+!entry.qsb.unit.connect array int
+ 0
+ 0
+!entry.pds.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+!entry.qsb.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+!entry.qsb.unit.name single str
+ "qsb"
+!entry.qsb.unit.positions table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 1.0 0.0
+!entry.qsb.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.qsb.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "qsb" 1 3 1 "?" 0
+!entry.qsb.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.qsb.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qsb.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.qsh.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "H" "HQ" 0 1 131072 1 1 0.206000
+!entry.qsh.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "H" "HQ" 0 -1 0.0
+!entry.qsh.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qsh.unit.childsequence single int
+ 2
+!entry.qsh.unit.connect array int
+ 0
+ 0
+!entry.qsh.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+!entry.qsh.unit.name single str
+ "qsh"
+!entry.qsh.unit.positions table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.qsh.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.qsh.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "qsh" 1 2 1 "?" 0
+!entry.qsh.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.qsh.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qsh.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.qsi.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "SI" "SI" 0 1 131072 1 14 1.283000
+!entry.qsi.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "SI" "SI" 0 -1 0.0
+!entry.qsi.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qsi.unit.childsequence single int
+ 2
+!entry.qsi.unit.connect array int
+ 0
+ 0
+!entry.qsi.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+!entry.qsi.unit.name single str
+ "qsi"
+!entry.qsi.unit.positions table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.qsi.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.qsi.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "qsi" 1 2 1 "?" 0
+!entry.qsi.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.qsi.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qsi.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.qso.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "O" "OB" 0 1 131072 1 8 -0.629000
+!entry.qso.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "O" "OB" 0 -1 0.0
+!entry.qso.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qso.unit.childsequence single int
+ 2
+!entry.qso.unit.connect array int
+ 0
+ 0
+!entry.qso.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+!entry.qso.unit.name single str
+ "qso"
+!entry.qso.unit.positions table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.qso.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.qso.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "qso" 1 2 1 "?" 0
+!entry.qso.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.qso.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qso.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0

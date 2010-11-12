@@ -1,0 +1,13 @@
+loadoff ../lib/pol3.lib
+loadoff ../lib/decane.lib
+
+loadamberparams ../frcmod/frcmod.pol3
+loadamberparams ../frcmod/frcmod.alkane
+
+decaneslab = loadpdb ../pdb/decane-slab.pdb
+set decaneslab box {30.0 90.0 30.0}
+
+check decaneslab
+
+saveamberparmpol decaneslab ../prmtop/decane+h2o.prmtop ../mdcrd/decane+h2o.mdcrd
+quit

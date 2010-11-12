@@ -1,0 +1,69 @@
+#!/bin/sh
+
+#PBS -N MD-datamization
+#PBS -j oe
+#PBS -o data.log
+#PBS -q normal
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=96:00:00
+
+# go to proper location
+cd $PBS_O_WORKDIR
+echo beginning job id $PBS_JOBID '('$PBS_JOBNAME')' on host `hostname`
+
+# get processor info
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo nodefile is set as $PBS_NODEFILE
+echo running on $NPROCS processors
+
+# command line syntax for sander
+# sander [-O] -i mdin -o mdout -p prmtop -c inpcrd -r restrt [-ref refc -x mdcrd -v mdvel -e mden -inf mdinfo]
+
+# Restarting an amber run from a previous trajectory
+echo "Beginning a data collection run"
+
+# 1) Project name
+# 2) input coordinate file
+# 3) output base directory
+#$DO_PARALLEL sander.MPI -O \
+function restrt {
+	mpirun -v -machinefile $PBS_NODEFILE -np 8 sander.MPI -O \
+	   -i $MD_HOME/mdin/dataCollection.mdin \
+ 	   -p $MD_HOME/prmtop/$SYSTEM.prmtop \
+	   -c $2 \
+	   -ref $2 \
+	   -idip $3/dip/$SYSTEM.evolution.dip \
+ 	   -o $3/mdout/$SYSTEM.data.mdout \
+	   -r $3/restrt/$SYSTEM.data.rst7 \
+	   -x $3/mdcrd/$SYSTEM.data.mdcrd \
+	   -v $3/mdvel/$SYSTEM.data.mdvel \
+	   -e $3/mden/$SYSTEM.data.mden \
+	   -rdip $3/dip/$SYSTEM.data.dip
+}
+
+if [ -z $SYSTEM ];
+then
+	echo "You need to supply a base project name!"
+	echo "use the pbs -v option to supply 'qsub -v SYSTEM=<system-name>' to the scripts"
+	exit
+else
+	# we have a root name, let's check if we have a specific input filename, too
+	echo "Project Name = $SYSTEM"
+fi
+
+if [ -z $2 ];
+then
+	echo "Input coordinates: ${MD_HOME}/restrt/$SYSTEM.evolution.restrt"
+else
+	echo "Input coordinates taken from $2"
+	# lastly let's see if the output dir is set
+fi
+
+if [ -z $3 ];
+then
+	echo "Output base directory: ${MD_HOME}"
+else
+	echo "Output base directory set to $3"
+fi
+
+restrt $SYSTEM ${2:-${MD_DATA}/restrt/$SYSTEM.evolution.rst7} ${3:-$MD_DATA};

@@ -1,0 +1,7 @@
+loadoff ../lib/quartz_unitcell.lib
+
+loadamberparams ../frcmod/frcmod.quartz
+
+pdb = loadpdb ../pdb/quartz_unitcell.pdb
+
+quit

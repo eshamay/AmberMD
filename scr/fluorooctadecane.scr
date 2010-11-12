@@ -1,0 +1,14 @@
+loadoff ../lib/fluorooctadecane.lib
+loadoff ../lib/pol3.lib
+
+loadamberparams ../frcmod/frcmod.Fluoroalkane
+loadamberparams ../frcmod/frcmod.pol3
+
+fod = loadpdb ../pdb/fluorooctadecane-monolayer.pdb
+set fod box {40.0 90.0 40.0}
+
+check fod
+
+saveamberparmpol fod ../prmtop/fod-monolayer.prmtop ../mdcrd/fod-monolayer.mdcrd
+quit
+

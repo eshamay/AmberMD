@@ -1,0 +1,13 @@
+loadoff ../lib/pol3.lib
+loadoff ../lib/sio2.lib
+
+loadamberparams ../frcmod/frcmod.pol3
+loadamberparams ../frcmod/frcmod.sio2
+
+sio2slab = loadpdb ../pdb/SiO2-slab+h2o.ind+boundOH.pdb
+set sio2slab box {30.0 100.0 30.0}
+
+check sio2slab
+
+saveamberparmpol sio2slab ../prmtop/SiO2-slab+h2o.ind.prmtop ../mdcrd/SiO2-slab+h2o.ind.mdcrd
+quit

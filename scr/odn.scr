@@ -1,0 +1,14 @@
+loadoff ../lib/octadecane.lib
+loadoff ../lib/pol3.lib
+
+loadamberparams ../frcmod/frcmod.Pierce2008
+loadamberparams ../frcmod/frcmod.pol3
+
+octadecane = loadpdb ../pdb/octadecane-monolayer.pdb
+set octadecane box {40.0 90.0 40.0}
+
+check octadecane
+
+saveamberparmpol octadecane ../prmtop/octadecane-monolayer.prmtop ../mdcrd/octadecane-monolayer.mdcrd
+quit
+

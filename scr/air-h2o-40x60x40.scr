@@ -1,0 +1,15 @@
+loadoff ../lib/spcfw.lib
+
+loadamberparams ../frcmod/frcmod.spcfw-pol
+
+set default FlexibleWater on
+
+airh2o = loadpdb ../../system_starting_coords/h2o-box-40x60x40.pdb
+
+set airh2o box {40.0 100.0 40.0}
+
+check airh2o
+
+saveamberparmpol airh2o ../prmtop/air-h2o-pol-40x60x40.prmtop ../mdcrd/air-h2o-pol-40x60x40.mdcrd
+quit
+

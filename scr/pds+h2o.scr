@@ -1,0 +1,13 @@
+loadoff ../lib/pol3.lib
+loadoff ../lib/pds.lib
+
+loadamberparams ../frcmod/frcmod.pol3
+loadamberparams ../frcmod/frcmod.pds
+
+pdsslab = loadpdb ../pdb/pds-slab.pdb
+set pdsslab box {30.0 90.0 30.0}
+
+check pdsslab
+
+saveamberparmpol pdsslab ../prmtop/pds+h2o.prmtop ../mdcrd/pds+h2o.mdcrd
+quit

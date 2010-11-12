@@ -1,0 +1,13 @@
+loadoff ../lib/ods.lib
+
+loadamberparams ../frcmod/frcmod.yamamato
+loadamberparams ../frcmod/frcmod.ods
+
+ods = loadpdb ../pdb/ods-monolayer.pdb
+set ods box {40.0 90.0 40.0}
+
+check ods
+
+saveamberparmpol ods ../prmtop/ods-monolayer.prmtop ../mdcrd/ods-monolayer.mdcrd
+quit
+

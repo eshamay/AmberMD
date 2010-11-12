@@ -1,0 +1,29 @@
+#!/bin/sh
+
+#PBS -N test_script
+#PBS -j oe
+#PBS -o test.log
+#PBS -q normal
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=00:05:00
+
+# go to proper location
+cd $PBS_O_WORKDIR
+# echo PBS_O_WORKDIR is set to $PBS_O_WORKDIR
+# echo beginning job id $PBS_JOBID '('$PBS_JOBNAME')' on host `hostname`
+
+# get processor info
+NPROCS=`wc -l < $PBS_NODEFILE`
+# echo running on $NPROCS processors
+# echo using the nodefile: $PBS_NODEFILE
+
+# run some jobs (in this case, just sleep for 60 seconds)
+if [ -z $ARG ];
+then
+	echo "didn't supply a var!"
+else
+time \
+	   echo The argument is: $ARG ...
+fi
+
+

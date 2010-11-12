@@ -1,0 +1,11 @@
+loadoff ../lib/quartz_100-slab+H.lib
+
+loadamberparams ../frcmod/frcmod.quartz_100
+
+sio2slab = loadpdb ../pdb/quartz_100-slab+H.pdb
+set sio2slab box {35.0 90.0 35.0}
+
+check sio2slab
+
+saveamberparmpol sio2slab ../prmtop/quartz_100-slab+H.prmtop ../mdcrd/quartz_100-slab+H.mdcrd
+quit

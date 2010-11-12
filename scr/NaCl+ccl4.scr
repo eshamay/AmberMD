@@ -1,0 +1,17 @@
+loadamberparams leaprc
+
+loadamberparams ../frcmod/frcmod.ions
+loadamberparams ../frcmod/frcmod.ccl4
+loadamberparams ../frcmod/frcmod.pol3
+
+loadoff ../lib/ions.lib
+loadoff ../lib/ccl4.lib
+loadoff ../lib/pol3.lib
+
+naclbox = loadpdb ../pdb/NaCl+CTCbox.pdb
+set naclbox box {30.0 75.0 30.0}
+
+check naclbox
+
+saveamberparmpol naclbox ../prmtop/NaCl+ccl4-50fs.prmtop ../mdcrd/NaCl+ccl4-50fs.mdcrd
+quit

@@ -1,0 +1,44 @@
+logFile leap.log
+
+#
+# ----- leaprc for loading the ff03 (Duan et al.) force field
+#
+#	load atom type hybridizations
+#
+
+AddAtomTypes {
+{ "H"   "H" "sp3" }
+{ "H2"  "H" "sp3" }
+{ "HW"  "H" "sp3" }
+{ "O"   "O" "sp2" }
+{ "O1"  "O" "sp3" }
+{ "O2"  "O" "sp3" }
+{ "O3"  "O" "sp3" }
+{ "O4"  "O" "sp3" }
+{ "O5"  "O" "sp3" }
+{ "O6"  "O" "sp3" }
+{ "O7"  "O" "sp3" }
+{ "O8"  "O" "sp3" }
+{ "OW"  "O" "sp3" }
+{ "OS"  "O" "sp3" }
+{ "CT"  "C" "sp3" }
+{ "C2"  "C" "sp3" }
+{ "C4"  "C" "sp3" }
+{ "C5"  "C" "sp3" }
+{ "CH"  "C" "sp3" }
+{ "C"   "C" "sp2" }
+{ "CF"   "C" "sp3" }
+{ "N"   "N" "sp2" }
+{ "NA"  "Na" "sp2" }
+{ "CL"  "Cl" "sp3" }
+{ "BR"  "Br" "sp3" }
+{ "IB"  "Br" "sp3" }
+{ "IM"  "Cl" "sp3" }
+{ "IC"  "Cl" "sp3" }
+{ "IP"  "Na" "sp3" }
+{ "F"   "F"  "sp1" }
+{ "F2"  "F"  "sp3" }
+{ "F3"  "F"  "sp3" }
+{ "SI"  "Si" "sp3" }
+{ "OQ"  "O"  "sp3" }
+}

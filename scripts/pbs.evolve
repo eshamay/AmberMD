@@ -1,0 +1,70 @@
+#!/bin/sh
+
+#PBS -N MD-evolution
+#PBS -j oe
+#PBS -o equil.log
+#PBS -q normal
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=128:00:00
+
+# go to proper location
+cd $PBS_O_WORKDIR
+echo beginning job id $PBS_JOBID '('$PBS_JOBNAME')' on host `hostname`
+
+# get processor info
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo nodefile is set as $PBS_NODEFILE
+echo running on $NPROCS processors
+
+# command line syntax for sander
+# sander [-O] -i mdin -o mdout -p prmtop -c inpcrd -r restrt [-ref refc -x mdcrd -v mdvel -e mden -inf mdinfo]
+
+# Run an equilibration
+echo "Running an equilibration"
+#$DO_PARALLEL sander.MPI -O \
+#mpirun -np 8 sander.MPI -O \
+#sander -O \
+
+function equil {
+  echo running on $NPROCS cpus
+	mpirun -v -machinefile $PBS_NODEFILE -np 8 sander.MPI -O \
+	-i $MD_HOME/mdin/evolution.mdin \
+	-p $MD_HOME/prmtop/$SYSTEM.prmtop \
+	-c $COORDS \
+	-ref $COORDS \
+	-idip $MD_DATA/dip/$SYSTEM.equil.dip \
+	-o $MD_DATA/mdout/$SYSTEM.evolution.mdout \
+	-r $MD_DATA/restrt/$SYSTEM.evolution.rst7 \
+	-x $MD_DATA/mdcrd/$SYSTEM.evolution.mdcrd \
+	-e $MD_DATA/mden/$SYSTEM.evolution.mden \
+	-rdip $MD_DATA/dip/$SYSTEM.evolution.dip
+}
+
+if [ -z $SYSTEM ];
+then
+	echo "We need a base project name!"
+	echo "Use: qsub -v SYSTEM=<system-name>"
+	exit
+else
+	echo "Project Name = $SYSTEM"
+	# we have a root name, let's check if we have a specific input filename, too
+fi
+
+# let's see if the output dir is set
+if [ -z $COORDS ];
+then
+	echo "no input coordinates specified!"
+else
+	echo "Input coordinates taken from $COORDS"
+fi
+
+if [ -z $MD_DATA ];
+then
+	echo "Output directory: $MD_HOME"
+else
+	echo "Output base directory set to $MD_DATA"
+fi
+
+time \
+	   equil $SYSTEM $COORDS $MD_DATA;
+

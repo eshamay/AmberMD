@@ -1,0 +1,11 @@
+loadoff ../lib/quartz-slab.lib
+
+loadamberparams ../frcmod/frcmod.quartz
+
+qtz = loadpdb ../pdb/quartz-slab.pdb
+set qtz box {35.0 35.0 35.0}
+
+check qtz
+
+saveamberparmpol qtz ../prmtop/quartz-slab.prmtop ../mdcrd/quartz-slab.mdcrd
+quit

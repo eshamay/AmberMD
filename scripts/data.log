@@ -1,0 +1,7 @@
+beginning job id 10969.qcprivate.cluster (MD-datamization) on host n18.cluster
+nodefile is set as /var/spool/torque/aux//10969.qcprivate.cluster
+running on 8 processors
+Beginning a data collection run
+Project Name = h2o-so2
+Input coordinates: /home/eshamay/md/amber/restrt/h2o-so2.evolution.restrt
+Output base directory: /home/eshamay/md/amber

@@ -1,0 +1,69 @@
+#!/bin/sh
+
+#PBS -N MD-equilibration
+#PBS -j oe
+#PBS -o equil.log
+#PBS -q normal
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=96:00:00
+
+# go to proper location
+cd $PBS_O_WORKDIR
+echo beginning job id $PBS_JOBID '('$PBS_JOBNAME')' on host `hostname`
+
+# get processor info
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo nodefile is set as $PBS_NODEFILE
+echo running on $NPROCS processors
+
+# command line syntax for sander
+# sander [-O] -i mdin -o mdout -p prmtop -c inpcrd -r restrt [-ref refc -x mdcrd -v mdvel -e mden -inf mdinfo]
+
+# Run an equilibration
+echo "Running an equilibration"
+#$DO_PARALLEL sander.MPI -O \
+#mpirun -np 8 sander.MPI -O \
+#sander -O \
+
+function equil {
+  echo running on $NPROCS cpus
+	mpirun -v -machinefile $PBS_NODEFILE -np 8 sander.MPI -O \
+	-i $MD_HOME/mdin/equilibration.mdin \
+	-p $MD_HOME/prmtop/$SYSTEM.prmtop \
+	-c $2 \
+	-ref $2 \
+	-o $3/mdout/$SYSTEM.equil.mdout \
+	-r $3/restrt/$SYSTEM.equil.rst7 \
+	-x $3/mdcrd/$SYSTEM.equil.mdcrd \
+	-e $3/mden/$SYSTEM.equil.mden \
+	-rdip $3/dip/$SYSTEM.equil.dip
+}
+
+if [ -z $SYSTEM ];
+then
+	echo "We need a base project name!"
+	echo "Use: qsub -v SYSTEM=<system-name>"
+	exit
+else
+	echo "Project Name = $SYSTEM"
+	# we have a root name, let's check if we have a specific input filename, too
+fi
+
+# let's see if the output dir is set
+if [ -z $2 ];
+then
+	echo "Input coordinates: $MD_DATA/restrt/$SYSTEM.min.rst7"
+else
+	echo "Input coordinates taken from $2"
+fi
+
+if [ -z $3 ];
+then
+	echo "Output directory: $MD_HOME"
+else
+	echo "Output base directory set to $3"
+fi
+
+time \
+	   equil $SYSTEM ${2:-${MD_DATA}/restrt/$SYSTEM.min.rst7} ${3:-$MD_DATA};
+

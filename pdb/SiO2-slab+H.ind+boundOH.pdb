@@ -1,0 +1,1201 @@
+ATOM      1  SI  qsi     1       0.980   0.980   0.000
+TER
+ATOM      2  O   qsb     2       0.680   0.000   1.240
+ATOM      3  H   qsb     2       0.680  -1.000   1.240
+TER
+ATOM      4  SI  qsi     3       2.970   2.970   3.474
+TER
+ATOM      5  O   qso     4       3.270   3.950   4.714
+TER
+ATOM      6  SI  qsi     5       0.481   3.469   1.737
+TER
+ATOM      7  O   qso     6       1.461   3.169   2.977
+TER
+ATOM      8  SI  qsi     7       3.469   0.481   5.211
+TER
+ATOM      9  O   qso     8       2.489   0.781   6.451
+TER
+ATOM     10  O   qso     9       0.781   2.489   0.497
+TER
+ATOM     11  O   qso    10       3.169   1.461   3.971
+TER
+ATOM     12  O   qso    11       0.000   0.680   5.708
+TER
+ATOM     13  O   qso    12       3.950   3.270   2.234
+TER
+ATOM     14  SI  qsi    13       0.980   0.980   6.948
+TER
+ATOM     15  O   qsb    14       0.680   0.000   8.188
+ATOM     16  H   qsb    14       0.680  -1.000   8.188
+TER
+ATOM     17  SI  qsi    15       2.970   2.970  10.422
+TER
+ATOM     18  O   qso    16       3.270   3.950  11.662
+TER
+ATOM     19  SI  qsi    17       0.481   3.469   8.685
+TER
+ATOM     20  O   qso    18       1.461   3.169   9.925
+TER
+ATOM     21  SI  qsi    19       3.469   0.481  12.159
+TER
+ATOM     22  O   qso    20       2.489   0.781  13.399
+TER
+ATOM     23  O   qso    21       0.781   2.489   7.445
+TER
+ATOM     24  O   qso    22       3.169   1.461  10.919
+TER
+ATOM     25  O   qso    23       0.000   0.680  12.656
+TER
+ATOM     26  O   qso    24       3.950   3.270   9.182
+TER
+ATOM     27  SI  qsi    25       0.980   0.980  13.896
+TER
+ATOM     28  O   qsb    26       0.680   0.000  15.136
+ATOM     29  H   qsb    26       0.680  -1.000  15.136
+TER
+ATOM     30  SI  qsi    27       2.970   2.970  17.370
+TER
+ATOM     31  O   qso    28       3.270   3.950  18.610
+TER
+ATOM     32  SI  qsi    29       0.481   3.469  15.633
+TER
+ATOM     33  O   qso    30       1.461   3.169  16.873
+TER
+ATOM     34  SI  qsi    31       3.469   0.481  19.107
+TER
+ATOM     35  O   qso    32       2.489   0.781  20.347
+TER
+ATOM     36  O   qso    33       0.781   2.489  14.393
+TER
+ATOM     37  O   qso    34       3.169   1.461  17.867
+TER
+ATOM     38  O   qso    35       0.000   0.680  19.604
+TER
+ATOM     39  O   qso    36       3.950   3.270  16.130
+TER
+ATOM     40  SI  qsi    37       0.980   0.980  20.844
+TER
+ATOM     41  O   qsb    38       0.680   0.000  22.084
+ATOM     42  H   qsb    38       0.680  -1.000  22.084
+TER
+ATOM     43  SI  qsi    39       2.970   2.970  24.318
+TER
+ATOM     44  O   qso    40       3.270   3.950  25.558
+TER
+ATOM     45  SI  qsi    41       0.481   3.469  22.581
+TER
+ATOM     46  O   qso    42       1.461   3.169  23.821
+TER
+ATOM     47  SI  qsi    43       3.469   0.481  26.055
+TER
+ATOM     48  O   qso    44       2.489   0.781  27.295
+TER
+ATOM     49  O   qso    45       0.781   2.489  21.341
+TER
+ATOM     50  O   qso    46       3.169   1.461  24.815
+TER
+ATOM     51  O   qso    47       0.000   0.680  26.552
+TER
+ATOM     52  O   qso    48       3.950   3.270  23.078
+TER
+ATOM     53  SI  qsi    49       0.980   5.958   0.000
+TER
+ATOM     54  O   qso    50       0.680   4.978   1.240
+TER
+ATOM     55  SI  qsi    51       2.970   7.948   3.474
+TER
+ATOM     56  O   qsb    52       3.270   8.928   4.714
+ATOM     57  H   qsb    52       3.270   9.928   4.714
+TER
+ATOM     58  SI  qsi    53       0.481   8.447   1.737
+TER
+ATOM     59  O   qso    54       1.461   8.147   2.977
+TER
+ATOM     60  SI  qsi    55       3.469   5.459   5.211
+TER
+ATOM     61  O   qso    56       2.489   5.759   6.451
+TER
+ATOM     62  O   qso    57       0.781   7.467   0.497
+TER
+ATOM     63  O   qso    58       3.169   6.439   3.971
+TER
+ATOM     64  O   qso    59       0.000   5.658   5.708
+TER
+ATOM     65  O   qso    60       3.950   8.248   2.234
+TER
+ATOM     66  SI  qsi    61       0.980   5.958   6.948
+TER
+ATOM     67  O   qso    62       0.680   4.978   8.188
+TER
+ATOM     68  SI  qsi    63       2.970   7.948  10.422
+TER
+ATOM     69  O   qsb    64       3.270   8.928  11.662
+ATOM     70  H   qsb    64       3.270   9.928  11.662
+TER
+ATOM     71  SI  qsi    65       0.481   8.447   8.685
+TER
+ATOM     72  O   qso    66       1.461   8.147   9.925
+TER
+ATOM     73  SI  qsi    67       3.469   5.459  12.159
+TER
+ATOM     74  O   qso    68       2.489   5.759  13.399
+TER
+ATOM     75  O   qso    69       0.781   7.467   7.445
+TER
+ATOM     76  O   qso    70       3.169   6.439  10.919
+TER
+ATOM     77  O   qso    71       0.000   5.658  12.656
+TER
+ATOM     78  O   qso    72       3.950   8.248   9.182
+TER
+ATOM     79  SI  qsi    73       0.980   5.958  13.896
+TER
+ATOM     80  O   qso    74       0.680   4.978  15.136
+TER
+ATOM     81  SI  qsi    75       2.970   7.948  17.370
+TER
+ATOM     82  O   qsb    76       3.270   8.928  18.610
+ATOM     83  H   qsb    76       3.270   9.928  18.610
+TER
+ATOM     84  SI  qsi    77       0.481   8.447  15.633
+TER
+ATOM     85  O   qso    78       1.461   8.147  16.873
+TER
+ATOM     86  SI  qsi    79       3.469   5.459  19.107
+TER
+ATOM     87  O   qso    80       2.489   5.759  20.347
+TER
+ATOM     88  O   qso    81       0.781   7.467  14.393
+TER
+ATOM     89  O   qso    82       3.169   6.439  17.867
+TER
+ATOM     90  O   qso    83       0.000   5.658  19.604
+TER
+ATOM     91  O   qso    84       3.950   8.248  16.130
+TER
+ATOM     92  SI  qsi    85       0.980   5.958  20.844
+TER
+ATOM     93  O   qso    86       0.680   4.978  22.084
+TER
+ATOM     94  SI  qsi    87       2.970   7.948  24.318
+TER
+ATOM     95  O   qsb    88       3.270   8.928  25.558
+ATOM     96  H   qsb    88       3.270   9.928  25.558
+TER
+ATOM     97  SI  qsi    89       0.481   8.447  22.581
+TER
+ATOM     98  O   qso    90       1.461   8.147  23.821
+TER
+ATOM     99  SI  qsi    91       3.469   5.459  26.055
+TER
+ATOM    100  O   qso    92       2.489   5.759  27.295
+TER
+ATOM    101  O   qso    93       0.781   7.467  21.341
+TER
+ATOM    102  O   qso    94       3.169   6.439  24.815
+TER
+ATOM    103  O   qso    95       0.000   5.658  26.552
+TER
+ATOM    104  O   qso    96       3.950   8.248  23.078
+TER
+ATOM    105  SI  qsi    97       5.958   0.980   0.000
+TER
+ATOM    106  O   qsb    98       5.658   0.000   1.240
+ATOM    107  H   qsb    98       5.658  -1.000   1.240
+TER
+ATOM    108  SI  qsi    99       7.948   2.970   3.474
+TER
+ATOM    109  O   qso   100       8.248   3.950   4.714
+TER
+ATOM    110  SI  qsi   101       5.459   3.469   1.737
+TER
+ATOM    111  O   qso   102       6.439   3.169   2.977
+TER
+ATOM    112  SI  qsi   103       8.447   0.481   5.211
+TER
+ATOM    113  O   qso   104       7.467   0.781   6.451
+TER
+ATOM    114  O   qso   105       5.759   2.489   0.497
+TER
+ATOM    115  O   qso   106       8.147   1.461   3.971
+TER
+ATOM    116  O   qso   107       4.978   0.680   5.708
+TER
+ATOM    117  O   qso   108       8.928   3.270   2.234
+TER
+ATOM    118  SI  qsi   109       5.958   0.980   6.948
+TER
+ATOM    119  O   qsb   110       5.658   0.000   8.188
+ATOM    120  H   qsb   110       5.658  -1.000   8.188
+TER
+ATOM    121  SI  qsi   111       7.948   2.970  10.422
+TER
+ATOM    122  O   qso   112       8.248   3.950  11.662
+TER
+ATOM    123  SI  qsi   113       5.459   3.469   8.685
+TER
+ATOM    124  O   qso   114       6.439   3.169   9.925
+TER
+ATOM    125  SI  qsi   115       8.447   0.481  12.159
+TER
+ATOM    126  O   qso   116       7.467   0.781  13.399
+TER
+ATOM    127  O   qso   117       5.759   2.489   7.445
+TER
+ATOM    128  O   qso   118       8.147   1.461  10.919
+TER
+ATOM    129  O   qso   119       4.978   0.680  12.656
+TER
+ATOM    130  O   qso   120       8.928   3.270   9.182
+TER
+ATOM    131  SI  qsi   121       5.958   0.980  13.896
+TER
+ATOM    132  O   qsb   122       5.658   0.000  15.136
+ATOM    133  H   qsb   122       5.658  -1.000  15.136
+TER
+ATOM    134  SI  qsi   123       7.948   2.970  17.370
+TER
+ATOM    135  O   qso   124       8.248   3.950  18.610
+TER
+ATOM    136  SI  qsi   125       5.459   3.469  15.633
+TER
+ATOM    137  O   qso   126       6.439   3.169  16.873
+TER
+ATOM    138  SI  qsi   127       8.447   0.481  19.107
+TER
+ATOM    139  O   qso   128       7.467   0.781  20.347
+TER
+ATOM    140  O   qso   129       5.759   2.489  14.393
+TER
+ATOM    141  O   qso   130       8.147   1.461  17.867
+TER
+ATOM    142  O   qso   131       4.978   0.680  19.604
+TER
+ATOM    143  O   qso   132       8.928   3.270  16.130
+TER
+ATOM    144  SI  qsi   133       5.958   0.980  20.844
+TER
+ATOM    145  O   qsb   134       5.658   0.000  22.084
+ATOM    146  H   qsb   134       5.658  -1.000  22.084
+TER
+ATOM    147  SI  qsi   135       7.948   2.970  24.318
+TER
+ATOM    148  O   qso   136       8.248   3.950  25.558
+TER
+ATOM    149  SI  qsi   137       5.459   3.469  22.581
+TER
+ATOM    150  O   qso   138       6.439   3.169  23.821
+TER
+ATOM    151  SI  qsi   139       8.447   0.481  26.055
+TER
+ATOM    152  O   qso   140       7.467   0.781  27.295
+TER
+ATOM    153  O   qso   141       5.759   2.489  21.341
+TER
+ATOM    154  O   qso   142       8.147   1.461  24.815
+TER
+ATOM    155  O   qso   143       4.978   0.680  26.552
+TER
+ATOM    156  O   qso   144       8.928   3.270  23.078
+TER
+ATOM    157  SI  qsi   145       5.958   5.958   0.000
+TER
+ATOM    158  O   qso   146       5.658   4.978   1.240
+TER
+ATOM    159  SI  qsi   147       7.948   7.948   3.474
+TER
+ATOM    160  O   qsb   148       8.248   8.928   4.714
+ATOM    161  H   qsb   148       8.248   9.928   4.714
+TER
+ATOM    162  SI  qsi   149       5.459   8.447   1.737
+TER
+ATOM    163  O   qso   150       6.439   8.147   2.977
+TER
+ATOM    164  SI  qsi   151       8.447   5.459   5.211
+TER
+ATOM    165  O   qso   152       7.467   5.759   6.451
+TER
+ATOM    166  O   qso   153       5.759   7.467   0.497
+TER
+ATOM    167  O   qso   154       8.147   6.439   3.971
+TER
+ATOM    168  O   qso   155       4.978   5.658   5.708
+TER
+ATOM    169  O   qso   156       8.928   8.248   2.234
+TER
+ATOM    170  SI  qsi   157       5.958   5.958   6.948
+TER
+ATOM    171  O   qso   158       5.658   4.978   8.188
+TER
+ATOM    172  SI  qsi   159       7.948   7.948  10.422
+TER
+ATOM    173  O   qsb   160       8.248   8.928  11.662
+ATOM    174  H   qsb   160       8.248   9.928  11.662
+TER
+ATOM    175  SI  qsi   161       5.459   8.447   8.685
+TER
+ATOM    176  O   qso   162       6.439   8.147   9.925
+TER
+ATOM    177  SI  qsi   163       8.447   5.459  12.159
+TER
+ATOM    178  O   qso   164       7.467   5.759  13.399
+TER
+ATOM    179  O   qso   165       5.759   7.467   7.445
+TER
+ATOM    180  O   qso   166       8.147   6.439  10.919
+TER
+ATOM    181  O   qso   167       4.978   5.658  12.656
+TER
+ATOM    182  O   qso   168       8.928   8.248   9.182
+TER
+ATOM    183  SI  qsi   169       5.958   5.958  13.896
+TER
+ATOM    184  O   qso   170       5.658   4.978  15.136
+TER
+ATOM    185  SI  qsi   171       7.948   7.948  17.370
+TER
+ATOM    186  O   qsb   172       8.248   8.928  18.610
+ATOM    187  H   qsb   172       8.248   9.928  18.610
+TER
+ATOM    188  SI  qsi   173       5.459   8.447  15.633
+TER
+ATOM    189  O   qso   174       6.439   8.147  16.873
+TER
+ATOM    190  SI  qsi   175       8.447   5.459  19.107
+TER
+ATOM    191  O   qso   176       7.467   5.759  20.347
+TER
+ATOM    192  O   qso   177       5.759   7.467  14.393
+TER
+ATOM    193  O   qso   178       8.147   6.439  17.867
+TER
+ATOM    194  O   qso   179       4.978   5.658  19.604
+TER
+ATOM    195  O   qso   180       8.928   8.248  16.130
+TER
+ATOM    196  SI  qsi   181       5.958   5.958  20.844
+TER
+ATOM    197  O   qso   182       5.658   4.978  22.084
+TER
+ATOM    198  SI  qsi   183       7.948   7.948  24.318
+TER
+ATOM    199  O   qsb   184       8.248   8.928  25.558
+ATOM    200  H   qsb   184       8.248   9.928  25.558
+TER
+ATOM    201  SI  qsi   185       5.459   8.447  22.581
+TER
+ATOM    202  O   qso   186       6.439   8.147  23.821
+TER
+ATOM    203  SI  qsi   187       8.447   5.459  26.055
+TER
+ATOM    204  O   qso   188       7.467   5.759  27.295
+TER
+ATOM    205  O   qso   189       5.759   7.467  21.341
+TER
+ATOM    206  O   qso   190       8.147   6.439  24.815
+TER
+ATOM    207  O   qso   191       4.978   5.658  26.552
+TER
+ATOM    208  O   qso   192       8.928   8.248  23.078
+TER
+ATOM    209  SI  qsi   193      10.936   0.980   0.000
+TER
+ATOM    210  O   qsb   194      10.636   0.000   1.240
+ATOM    211  H   qsb   194      10.636  -1.000   1.240
+TER
+ATOM    212  SI  qsi   195      12.926   2.970   3.474
+TER
+ATOM    213  O   qso   196      13.226   3.950   4.714
+TER
+ATOM    214  SI  qsi   197      10.437   3.469   1.737
+TER
+ATOM    215  O   qso   198      11.417   3.169   2.977
+TER
+ATOM    216  SI  qsi   199      13.425   0.481   5.211
+TER
+ATOM    217  O   qso   200      12.445   0.781   6.451
+TER
+ATOM    218  O   qso   201      10.737   2.489   0.497
+TER
+ATOM    219  O   qso   202      13.125   1.461   3.971
+TER
+ATOM    220  O   qso   203       9.956   0.680   5.708
+TER
+ATOM    221  O   qso   204      13.906   3.270   2.234
+TER
+ATOM    222  SI  qsi   205      10.936   0.980   6.948
+TER
+ATOM    223  O   qsb   206      10.636   0.000   8.188
+ATOM    224  H   qsb   206      10.636  -1.000   8.188
+TER
+ATOM    225  SI  qsi   207      12.926   2.970  10.422
+TER
+ATOM    226  O   qso   208      13.226   3.950  11.662
+TER
+ATOM    227  SI  qsi   209      10.437   3.469   8.685
+TER
+ATOM    228  O   qso   210      11.417   3.169   9.925
+TER
+ATOM    229  SI  qsi   211      13.425   0.481  12.159
+TER
+ATOM    230  O   qso   212      12.445   0.781  13.399
+TER
+ATOM    231  O   qso   213      10.737   2.489   7.445
+TER
+ATOM    232  O   qso   214      13.125   1.461  10.919
+TER
+ATOM    233  O   qso   215       9.956   0.680  12.656
+TER
+ATOM    234  O   qso   216      13.906   3.270   9.182
+TER
+ATOM    235  SI  qsi   217      10.936   0.980  13.896
+TER
+ATOM    236  O   qsb   218      10.636   0.000  15.136
+ATOM    237  H   qsb   218      10.636  -1.000  15.136
+TER
+ATOM    238  SI  qsi   219      12.926   2.970  17.370
+TER
+ATOM    239  O   qso   220      13.226   3.950  18.610
+TER
+ATOM    240  SI  qsi   221      10.437   3.469  15.633
+TER
+ATOM    241  O   qso   222      11.417   3.169  16.873
+TER
+ATOM    242  SI  qsi   223      13.425   0.481  19.107
+TER
+ATOM    243  O   qso   224      12.445   0.781  20.347
+TER
+ATOM    244  O   qso   225      10.737   2.489  14.393
+TER
+ATOM    245  O   qso   226      13.125   1.461  17.867
+TER
+ATOM    246  O   qso   227       9.956   0.680  19.604
+TER
+ATOM    247  O   qso   228      13.906   3.270  16.130
+TER
+ATOM    248  SI  qsi   229      10.936   0.980  20.844
+TER
+ATOM    249  O   qsb   230      10.636   0.000  22.084
+ATOM    250  H   qsb   230      10.636  -1.000  22.084
+TER
+ATOM    251  SI  qsi   231      12.926   2.970  24.318
+TER
+ATOM    252  O   qso   232      13.226   3.950  25.558
+TER
+ATOM    253  SI  qsi   233      10.437   3.469  22.581
+TER
+ATOM    254  O   qso   234      11.417   3.169  23.821
+TER
+ATOM    255  SI  qsi   235      13.425   0.481  26.055
+TER
+ATOM    256  O   qso   236      12.445   0.781  27.295
+TER
+ATOM    257  O   qso   237      10.737   2.489  21.341
+TER
+ATOM    258  O   qso   238      13.125   1.461  24.815
+TER
+ATOM    259  O   qso   239       9.956   0.680  26.552
+TER
+ATOM    260  O   qso   240      13.906   3.270  23.078
+TER
+ATOM    261  SI  qsi   241      10.936   5.958   0.000
+TER
+ATOM    262  O   qso   242      10.636   4.978   1.240
+TER
+ATOM    263  SI  qsi   243      12.926   7.948   3.474
+TER
+ATOM    264  O   qsb   244      13.226   8.928   4.714
+ATOM    265  H   qsb   244      13.226   9.928   4.714
+TER
+ATOM    266  SI  qsi   245      10.437   8.447   1.737
+TER
+ATOM    267  O   qso   246      11.417   8.147   2.977
+TER
+ATOM    268  SI  qsi   247      13.425   5.459   5.211
+TER
+ATOM    269  O   qso   248      12.445   5.759   6.451
+TER
+ATOM    270  O   qso   249      10.737   7.467   0.497
+TER
+ATOM    271  O   qso   250      13.125   6.439   3.971
+TER
+ATOM    272  O   qso   251       9.956   5.658   5.708
+TER
+ATOM    273  O   qso   252      13.906   8.248   2.234
+TER
+ATOM    274  SI  qsi   253      10.936   5.958   6.948
+TER
+ATOM    275  O   qso   254      10.636   4.978   8.188
+TER
+ATOM    276  SI  qsi   255      12.926   7.948  10.422
+TER
+ATOM    277  O   qsb   256      13.226   8.928  11.662
+ATOM    278  H   qsb   256      13.226   9.928  11.662
+TER
+ATOM    279  SI  qsi   257      10.437   8.447   8.685
+TER
+ATOM    280  O   qso   258      11.417   8.147   9.925
+TER
+ATOM    281  SI  qsi   259      13.425   5.459  12.159
+TER
+ATOM    282  O   qso   260      12.445   5.759  13.399
+TER
+ATOM    283  O   qso   261      10.737   7.467   7.445
+TER
+ATOM    284  O   qso   262      13.125   6.439  10.919
+TER
+ATOM    285  O   qso   263       9.956   5.658  12.656
+TER
+ATOM    286  O   qso   264      13.906   8.248   9.182
+TER
+ATOM    287  SI  qsi   265      10.936   5.958  13.896
+TER
+ATOM    288  O   qso   266      10.636   4.978  15.136
+TER
+ATOM    289  SI  qsi   267      12.926   7.948  17.370
+TER
+ATOM    290  O   qsb   268      13.226   8.928  18.610
+ATOM    291  H   qsb   268      13.226   9.928  18.610
+TER
+ATOM    292  SI  qsi   269      10.437   8.447  15.633
+TER
+ATOM    293  O   qso   270      11.417   8.147  16.873
+TER
+ATOM    294  SI  qsi   271      13.425   5.459  19.107
+TER
+ATOM    295  O   qso   272      12.445   5.759  20.347
+TER
+ATOM    296  O   qso   273      10.737   7.467  14.393
+TER
+ATOM    297  O   qso   274      13.125   6.439  17.867
+TER
+ATOM    298  O   qso   275       9.956   5.658  19.604
+TER
+ATOM    299  O   qso   276      13.906   8.248  16.130
+TER
+ATOM    300  SI  qsi   277      10.936   5.958  20.844
+TER
+ATOM    301  O   qso   278      10.636   4.978  22.084
+TER
+ATOM    302  SI  qsi   279      12.926   7.948  24.318
+TER
+ATOM    303  O   qsb   280      13.226   8.928  25.558
+ATOM    304  H   qsb   280      13.226   9.928  25.558
+TER
+ATOM    305  SI  qsi   281      10.437   8.447  22.581
+TER
+ATOM    306  O   qso   282      11.417   8.147  23.821
+TER
+ATOM    307  SI  qsi   283      13.425   5.459  26.055
+TER
+ATOM    308  O   qso   284      12.445   5.759  27.295
+TER
+ATOM    309  O   qso   285      10.737   7.467  21.341
+TER
+ATOM    310  O   qso   286      13.125   6.439  24.815
+TER
+ATOM    311  O   qso   287       9.956   5.658  26.552
+TER
+ATOM    312  O   qso   288      13.906   8.248  23.078
+TER
+ATOM    313  SI  qsi   289      15.914   0.980   0.000
+TER
+ATOM    314  O   qsb   290      15.614   0.000   1.240
+ATOM    315  H   qsb   290      15.614  -1.000   1.240
+TER
+ATOM    316  SI  qsi   291      17.904   2.970   3.474
+TER
+ATOM    317  O   qso   292      18.204   3.950   4.714
+TER
+ATOM    318  SI  qsi   293      15.415   3.469   1.737
+TER
+ATOM    319  O   qso   294      16.395   3.169   2.977
+TER
+ATOM    320  SI  qsi   295      18.403   0.481   5.211
+TER
+ATOM    321  O   qso   296      17.423   0.781   6.451
+TER
+ATOM    322  O   qso   297      15.715   2.489   0.497
+TER
+ATOM    323  O   qso   298      18.103   1.461   3.971
+TER
+ATOM    324  O   qso   299      14.934   0.680   5.708
+TER
+ATOM    325  O   qso   300      18.884   3.270   2.234
+TER
+ATOM    326  SI  qsi   301      15.914   0.980   6.948
+TER
+ATOM    327  O   qsb   302      15.614   0.000   8.188
+ATOM    328  H   qsb   302      15.614  -1.000   8.188
+TER
+ATOM    329  SI  qsi   303      17.904   2.970  10.422
+TER
+ATOM    330  O   qso   304      18.204   3.950  11.662
+TER
+ATOM    331  SI  qsi   305      15.415   3.469   8.685
+TER
+ATOM    332  O   qso   306      16.395   3.169   9.925
+TER
+ATOM    333  SI  qsi   307      18.403   0.481  12.159
+TER
+ATOM    334  O   qso   308      17.423   0.781  13.399
+TER
+ATOM    335  O   qso   309      15.715   2.489   7.445
+TER
+ATOM    336  O   qso   310      18.103   1.461  10.919
+TER
+ATOM    337  O   qso   311      14.934   0.680  12.656
+TER
+ATOM    338  O   qso   312      18.884   3.270   9.182
+TER
+ATOM    339  SI  qsi   313      15.914   0.980  13.896
+TER
+ATOM    340  O   qsb   314      15.614   0.000  15.136
+ATOM    341  H   qsb   314      15.614  -1.000  15.136
+TER
+ATOM    342  SI  qsi   315      17.904   2.970  17.370
+TER
+ATOM    343  O   qso   316      18.204   3.950  18.610
+TER
+ATOM    344  SI  qsi   317      15.415   3.469  15.633
+TER
+ATOM    345  O   qso   318      16.395   3.169  16.873
+TER
+ATOM    346  SI  qsi   319      18.403   0.481  19.107
+TER
+ATOM    347  O   qso   320      17.423   0.781  20.347
+TER
+ATOM    348  O   qso   321      15.715   2.489  14.393
+TER
+ATOM    349  O   qso   322      18.103   1.461  17.867
+TER
+ATOM    350  O   qso   323      14.934   0.680  19.604
+TER
+ATOM    351  O   qso   324      18.884   3.270  16.130
+TER
+ATOM    352  SI  qsi   325      15.914   0.980  20.844
+TER
+ATOM    353  O   qsb   326      15.614   0.000  22.084
+ATOM    354  H   qsb   326      15.614  -1.000  22.084
+TER
+ATOM    355  SI  qsi   327      17.904   2.970  24.318
+TER
+ATOM    356  O   qso   328      18.204   3.950  25.558
+TER
+ATOM    357  SI  qsi   329      15.415   3.469  22.581
+TER
+ATOM    358  O   qso   330      16.395   3.169  23.821
+TER
+ATOM    359  SI  qsi   331      18.403   0.481  26.055
+TER
+ATOM    360  O   qso   332      17.423   0.781  27.295
+TER
+ATOM    361  O   qso   333      15.715   2.489  21.341
+TER
+ATOM    362  O   qso   334      18.103   1.461  24.815
+TER
+ATOM    363  O   qso   335      14.934   0.680  26.552
+TER
+ATOM    364  O   qso   336      18.884   3.270  23.078
+TER
+ATOM    365  SI  qsi   337      15.914   5.958   0.000
+TER
+ATOM    366  O   qso   338      15.614   4.978   1.240
+TER
+ATOM    367  SI  qsi   339      17.904   7.948   3.474
+TER
+ATOM    368  O   qsb   340      18.204   8.928   4.714
+ATOM    369  H   qsb   340      18.204   9.928   4.714
+TER
+ATOM    370  SI  qsi   341      15.415   8.447   1.737
+TER
+ATOM    371  O   qso   342      16.395   8.147   2.977
+TER
+ATOM    372  SI  qsi   343      18.403   5.459   5.211
+TER
+ATOM    373  O   qso   344      17.423   5.759   6.451
+TER
+ATOM    374  O   qso   345      15.715   7.467   0.497
+TER
+ATOM    375  O   qso   346      18.103   6.439   3.971
+TER
+ATOM    376  O   qso   347      14.934   5.658   5.708
+TER
+ATOM    377  O   qso   348      18.884   8.248   2.234
+TER
+ATOM    378  SI  qsi   349      15.914   5.958   6.948
+TER
+ATOM    379  O   qso   350      15.614   4.978   8.188
+TER
+ATOM    380  SI  qsi   351      17.904   7.948  10.422
+TER
+ATOM    381  O   qsb   352      18.204   8.928  11.662
+ATOM    382  H   qsb   352      18.204   9.928  11.662
+TER
+ATOM    383  SI  qsi   353      15.415   8.447   8.685
+TER
+ATOM    384  O   qso   354      16.395   8.147   9.925
+TER
+ATOM    385  SI  qsi   355      18.403   5.459  12.159
+TER
+ATOM    386  O   qso   356      17.423   5.759  13.399
+TER
+ATOM    387  O   qso   357      15.715   7.467   7.445
+TER
+ATOM    388  O   qso   358      18.103   6.439  10.919
+TER
+ATOM    389  O   qso   359      14.934   5.658  12.656
+TER
+ATOM    390  O   qso   360      18.884   8.248   9.182
+TER
+ATOM    391  SI  qsi   361      15.914   5.958  13.896
+TER
+ATOM    392  O   qso   362      15.614   4.978  15.136
+TER
+ATOM    393  SI  qsi   363      17.904   7.948  17.370
+TER
+ATOM    394  O   qsb   364      18.204   8.928  18.610
+ATOM    395  H   qsb   364      18.204   9.928  18.610
+TER
+ATOM    396  SI  qsi   365      15.415   8.447  15.633
+TER
+ATOM    397  O   qso   366      16.395   8.147  16.873
+TER
+ATOM    398  SI  qsi   367      18.403   5.459  19.107
+TER
+ATOM    399  O   qso   368      17.423   5.759  20.347
+TER
+ATOM    400  O   qso   369      15.715   7.467  14.393
+TER
+ATOM    401  O   qso   370      18.103   6.439  17.867
+TER
+ATOM    402  O   qso   371      14.934   5.658  19.604
+TER
+ATOM    403  O   qso   372      18.884   8.248  16.130
+TER
+ATOM    404  SI  qsi   373      15.914   5.958  20.844
+TER
+ATOM    405  O   qso   374      15.614   4.978  22.084
+TER
+ATOM    406  SI  qsi   375      17.904   7.948  24.318
+TER
+ATOM    407  O   qsb   376      18.204   8.928  25.558
+ATOM    408  H   qsb   376      18.204   9.928  25.558
+TER
+ATOM    409  SI  qsi   377      15.415   8.447  22.581
+TER
+ATOM    410  O   qso   378      16.395   8.147  23.821
+TER
+ATOM    411  SI  qsi   379      18.403   5.459  26.055
+TER
+ATOM    412  O   qso   380      17.423   5.759  27.295
+TER
+ATOM    413  O   qso   381      15.715   7.467  21.341
+TER
+ATOM    414  O   qso   382      18.103   6.439  24.815
+TER
+ATOM    415  O   qso   383      14.934   5.658  26.552
+TER
+ATOM    416  O   qso   384      18.884   8.248  23.078
+TER
+ATOM    417  SI  qsi   385      20.892   0.980   0.000
+TER
+ATOM    418  O   qsb   386      20.592   0.000   1.240
+ATOM    419  H   qsb   386      20.592  -1.000   1.240
+TER
+ATOM    420  SI  qsi   387      22.882   2.970   3.474
+TER
+ATOM    421  O   qso   388      23.182   3.950   4.714
+TER
+ATOM    422  SI  qsi   389      20.393   3.469   1.737
+TER
+ATOM    423  O   qso   390      21.373   3.169   2.977
+TER
+ATOM    424  SI  qsi   391      23.381   0.481   5.211
+TER
+ATOM    425  O   qso   392      22.401   0.781   6.451
+TER
+ATOM    426  O   qso   393      20.693   2.489   0.497
+TER
+ATOM    427  O   qso   394      23.081   1.461   3.971
+TER
+ATOM    428  O   qso   395      19.912   0.680   5.708
+TER
+ATOM    429  O   qso   396      23.862   3.270   2.234
+TER
+ATOM    430  SI  qsi   397      20.892   0.980   6.948
+TER
+ATOM    431  O   qsb   398      20.592   0.000   8.188
+ATOM    432  H   qsb   398      20.592  -1.000   8.188
+TER
+ATOM    433  SI  qsi   399      22.882   2.970  10.422
+TER
+ATOM    434  O   qso   400      23.182   3.950  11.662
+TER
+ATOM    435  SI  qsi   401      20.393   3.469   8.685
+TER
+ATOM    436  O   qso   402      21.373   3.169   9.925
+TER
+ATOM    437  SI  qsi   403      23.381   0.481  12.159
+TER
+ATOM    438  O   qso   404      22.401   0.781  13.399
+TER
+ATOM    439  O   qso   405      20.693   2.489   7.445
+TER
+ATOM    440  O   qso   406      23.081   1.461  10.919
+TER
+ATOM    441  O   qso   407      19.912   0.680  12.656
+TER
+ATOM    442  O   qso   408      23.862   3.270   9.182
+TER
+ATOM    443  SI  qsi   409      20.892   0.980  13.896
+TER
+ATOM    444  O   qsb   410      20.592   0.000  15.136
+ATOM    445  H   qsb   410      20.592  -1.000  15.136
+TER
+ATOM    446  SI  qsi   411      22.882   2.970  17.370
+TER
+ATOM    447  O   qso   412      23.182   3.950  18.610
+TER
+ATOM    448  SI  qsi   413      20.393   3.469  15.633
+TER
+ATOM    449  O   qso   414      21.373   3.169  16.873
+TER
+ATOM    450  SI  qsi   415      23.381   0.481  19.107
+TER
+ATOM    451  O   qso   416      22.401   0.781  20.347
+TER
+ATOM    452  O   qso   417      20.693   2.489  14.393
+TER
+ATOM    453  O   qso   418      23.081   1.461  17.867
+TER
+ATOM    454  O   qso   419      19.912   0.680  19.604
+TER
+ATOM    455  O   qso   420      23.862   3.270  16.130
+TER
+ATOM    456  SI  qsi   421      20.892   0.980  20.844
+TER
+ATOM    457  O   qsb   422      20.592   0.000  22.084
+ATOM    458  H   qsb   422      20.592  -1.000  22.084
+TER
+ATOM    459  SI  qsi   423      22.882   2.970  24.318
+TER
+ATOM    460  O   qso   424      23.182   3.950  25.558
+TER
+ATOM    461  SI  qsi   425      20.393   3.469  22.581
+TER
+ATOM    462  O   qso   426      21.373   3.169  23.821
+TER
+ATOM    463  SI  qsi   427      23.381   0.481  26.055
+TER
+ATOM    464  O   qso   428      22.401   0.781  27.295
+TER
+ATOM    465  O   qso   429      20.693   2.489  21.341
+TER
+ATOM    466  O   qso   430      23.081   1.461  24.815
+TER
+ATOM    467  O   qso   431      19.912   0.680  26.552
+TER
+ATOM    468  O   qso   432      23.862   3.270  23.078
+TER
+ATOM    469  SI  qsi   433      20.892   5.958   0.000
+TER
+ATOM    470  O   qso   434      20.592   4.978   1.240
+TER
+ATOM    471  SI  qsi   435      22.882   7.948   3.474
+TER
+ATOM    472  O   qsb   436      23.182   8.928   4.714
+ATOM    473  H   qsb   436      23.182   9.928   4.714
+TER
+ATOM    474  SI  qsi   437      20.393   8.447   1.737
+TER
+ATOM    475  O   qso   438      21.373   8.147   2.977
+TER
+ATOM    476  SI  qsi   439      23.381   5.459   5.211
+TER
+ATOM    477  O   qso   440      22.401   5.759   6.451
+TER
+ATOM    478  O   qso   441      20.693   7.467   0.497
+TER
+ATOM    479  O   qso   442      23.081   6.439   3.971
+TER
+ATOM    480  O   qso   443      19.912   5.658   5.708
+TER
+ATOM    481  O   qso   444      23.862   8.248   2.234
+TER
+ATOM    482  SI  qsi   445      20.892   5.958   6.948
+TER
+ATOM    483  O   qso   446      20.592   4.978   8.188
+TER
+ATOM    484  SI  qsi   447      22.882   7.948  10.422
+TER
+ATOM    485  O   qsb   448      23.182   8.928  11.662
+ATOM    486  H   qsb   448      23.182   9.928  11.662
+TER
+ATOM    487  SI  qsi   449      20.393   8.447   8.685
+TER
+ATOM    488  O   qso   450      21.373   8.147   9.925
+TER
+ATOM    489  SI  qsi   451      23.381   5.459  12.159
+TER
+ATOM    490  O   qso   452      22.401   5.759  13.399
+TER
+ATOM    491  O   qso   453      20.693   7.467   7.445
+TER
+ATOM    492  O   qso   454      23.081   6.439  10.919
+TER
+ATOM    493  O   qso   455      19.912   5.658  12.656
+TER
+ATOM    494  O   qso   456      23.862   8.248   9.182
+TER
+ATOM    495  SI  qsi   457      20.892   5.958  13.896
+TER
+ATOM    496  O   qso   458      20.592   4.978  15.136
+TER
+ATOM    497  SI  qsi   459      22.882   7.948  17.370
+TER
+ATOM    498  O   qsb   460      23.182   8.928  18.610
+ATOM    499  H   qsb   460      23.182   9.928  18.610
+TER
+ATOM    500  SI  qsi   461      20.393   8.447  15.633
+TER
+ATOM    501  O   qso   462      21.373   8.147  16.873
+TER
+ATOM    502  SI  qsi   463      23.381   5.459  19.107
+TER
+ATOM    503  O   qso   464      22.401   5.759  20.347
+TER
+ATOM    504  O   qso   465      20.693   7.467  14.393
+TER
+ATOM    505  O   qso   466      23.081   6.439  17.867
+TER
+ATOM    506  O   qso   467      19.912   5.658  19.604
+TER
+ATOM    507  O   qso   468      23.862   8.248  16.130
+TER
+ATOM    508  SI  qsi   469      20.892   5.958  20.844
+TER
+ATOM    509  O   qso   470      20.592   4.978  22.084
+TER
+ATOM    510  SI  qsi   471      22.882   7.948  24.318
+TER
+ATOM    511  O   qsb   472      23.182   8.928  25.558
+ATOM    512  H   qsb   472      23.182   9.928  25.558
+TER
+ATOM    513  SI  qsi   473      20.393   8.447  22.581
+TER
+ATOM    514  O   qso   474      21.373   8.147  23.821
+TER
+ATOM    515  SI  qsi   475      23.381   5.459  26.055
+TER
+ATOM    516  O   qso   476      22.401   5.759  27.295
+TER
+ATOM    517  O   qso   477      20.693   7.467  21.341
+TER
+ATOM    518  O   qso   478      23.081   6.439  24.815
+TER
+ATOM    519  O   qso   479      19.912   5.658  26.552
+TER
+ATOM    520  O   qso   480      23.862   8.248  23.078
+TER
+ATOM    521  SI  qsi   481      25.870   0.980   0.000
+TER
+ATOM    522  O   qsb   482      25.570   0.000   1.240
+ATOM    523  H   qsb   482      25.570  -1.000   1.240
+TER
+ATOM    524  SI  qsi   483      27.860   2.970   3.474
+TER
+ATOM    525  O   qso   484      28.160   3.950   4.714
+TER
+ATOM    526  SI  qsi   485      25.371   3.469   1.737
+TER
+ATOM    527  O   qso   486      26.351   3.169   2.977
+TER
+ATOM    528  SI  qsi   487      28.359   0.481   5.211
+TER
+ATOM    529  O   qso   488      27.379   0.781   6.451
+TER
+ATOM    530  O   qso   489      25.671   2.489   0.497
+TER
+ATOM    531  O   qso   490      28.059   1.461   3.971
+TER
+ATOM    532  O   qso   491      24.890   0.680   5.708
+TER
+ATOM    533  O   qso   492      28.840   3.270   2.234
+TER
+ATOM    534  SI  qsi   493      25.870   0.980   6.948
+TER
+ATOM    535  O   qsb   494      25.570   0.000   8.188
+ATOM    536  H   qsb   494      25.570  -1.000   8.188
+TER
+ATOM    537  SI  qsi   495      27.860   2.970  10.422
+TER
+ATOM    538  O   qso   496      28.160   3.950  11.662
+TER
+ATOM    539  SI  qsi   497      25.371   3.469   8.685
+TER
+ATOM    540  O   qso   498      26.351   3.169   9.925
+TER
+ATOM    541  SI  qsi   499      28.359   0.481  12.159
+TER
+ATOM    542  O   qso   500      27.379   0.781  13.399
+TER
+ATOM    543  O   qso   501      25.671   2.489   7.445
+TER
+ATOM    544  O   qso   502      28.059   1.461  10.919
+TER
+ATOM    545  O   qso   503      24.890   0.680  12.656
+TER
+ATOM    546  O   qso   504      28.840   3.270   9.182
+TER
+ATOM    547  SI  qsi   505      25.870   0.980  13.896
+TER
+ATOM    548  O   qsb   506      25.570   0.000  15.136
+ATOM    549  H   qsb   506      25.570  -1.000  15.136
+TER
+ATOM    550  SI  qsi   507      27.860   2.970  17.370
+TER
+ATOM    551  O   qso   508      28.160   3.950  18.610
+TER
+ATOM    552  SI  qsi   509      25.371   3.469  15.633
+TER
+ATOM    553  O   qso   510      26.351   3.169  16.873
+TER
+ATOM    554  SI  qsi   511      28.359   0.481  19.107
+TER
+ATOM    555  O   qso   512      27.379   0.781  20.347
+TER
+ATOM    556  O   qso   513      25.671   2.489  14.393
+TER
+ATOM    557  O   qso   514      28.059   1.461  17.867
+TER
+ATOM    558  O   qso   515      24.890   0.680  19.604
+TER
+ATOM    559  O   qso   516      28.840   3.270  16.130
+TER
+ATOM    560  SI  qsi   517      25.870   0.980  20.844
+TER
+ATOM    561  O   qsb   518      25.570   0.000  22.084
+ATOM    562  H   qsb   518      25.570  -1.000  22.084
+TER
+ATOM    563  SI  qsi   519      27.860   2.970  24.318
+TER
+ATOM    564  O   qso   520      28.160   3.950  25.558
+TER
+ATOM    565  SI  qsi   521      25.371   3.469  22.581
+TER
+ATOM    566  O   qso   522      26.351   3.169  23.821
+TER
+ATOM    567  SI  qsi   523      28.359   0.481  26.055
+TER
+ATOM    568  O   qso   524      27.379   0.781  27.295
+TER
+ATOM    569  O   qso   525      25.671   2.489  21.341
+TER
+ATOM    570  O   qso   526      28.059   1.461  24.815
+TER
+ATOM    571  O   qso   527      24.890   0.680  26.552
+TER
+ATOM    572  O   qso   528      28.840   3.270  23.078
+TER
+ATOM    573  SI  qsi   529      25.870   5.958   0.000
+TER
+ATOM    574  O   qso   530      25.570   4.978   1.240
+TER
+ATOM    575  SI  qsi   531      27.860   7.948   3.474
+TER
+ATOM    576  O   qsb   532      28.160   8.928   4.714
+ATOM    577  H   qsb   532      28.160   9.928   4.714
+TER
+ATOM    578  SI  qsi   533      25.371   8.447   1.737
+TER
+ATOM    579  O   qso   534      26.351   8.147   2.977
+TER
+ATOM    580  SI  qsi   535      28.359   5.459   5.211
+TER
+ATOM    581  O   qso   536      27.379   5.759   6.451
+TER
+ATOM    582  O   qso   537      25.671   7.467   0.497
+TER
+ATOM    583  O   qso   538      28.059   6.439   3.971
+TER
+ATOM    584  O   qso   539      24.890   5.658   5.708
+TER
+ATOM    585  O   qso   540      28.840   8.248   2.234
+TER
+ATOM    586  SI  qsi   541      25.870   5.958   6.948
+TER
+ATOM    587  O   qso   542      25.570   4.978   8.188
+TER
+ATOM    588  SI  qsi   543      27.860   7.948  10.422
+TER
+ATOM    589  O   qsb   544      28.160   8.928  11.662
+ATOM    590  H   qsb   544      28.160   9.928  11.662
+TER
+ATOM    591  SI  qsi   545      25.371   8.447   8.685
+TER
+ATOM    592  O   qso   546      26.351   8.147   9.925
+TER
+ATOM    593  SI  qsi   547      28.359   5.459  12.159
+TER
+ATOM    594  O   qso   548      27.379   5.759  13.399
+TER
+ATOM    595  O   qso   549      25.671   7.467   7.445
+TER
+ATOM    596  O   qso   550      28.059   6.439  10.919
+TER
+ATOM    597  O   qso   551      24.890   5.658  12.656
+TER
+ATOM    598  O   qso   552      28.840   8.248   9.182
+TER
+ATOM    599  SI  qsi   553      25.870   5.958  13.896
+TER
+ATOM    600  O   qso   554      25.570   4.978  15.136
+TER
+ATOM    601  SI  qsi   555      27.860   7.948  17.370
+TER
+ATOM    602  O   qsb   556      28.160   8.928  18.610
+ATOM    603  H   qsb   556      28.160   9.928  18.610
+TER
+ATOM    604  SI  qsi   557      25.371   8.447  15.633
+TER
+ATOM    605  O   qso   558      26.351   8.147  16.873
+TER
+ATOM    606  SI  qsi   559      28.359   5.459  19.107
+TER
+ATOM    607  O   qso   560      27.379   5.759  20.347
+TER
+ATOM    608  O   qso   561      25.671   7.467  14.393
+TER
+ATOM    609  O   qso   562      28.059   6.439  17.867
+TER
+ATOM    610  O   qso   563      24.890   5.658  19.604
+TER
+ATOM    611  O   qso   564      28.840   8.248  16.130
+TER
+ATOM    612  SI  qsi   565      25.870   5.958  20.844
+TER
+ATOM    613  O   qso   566      25.570   4.978  22.084
+TER
+ATOM    614  SI  qsi   567      27.860   7.948  24.318
+TER
+ATOM    615  O   qsb   568      28.160   8.928  25.558
+ATOM    616  H   qsb   568      28.160   9.928  25.558
+TER
+ATOM    617  SI  qsi   569      25.371   8.447  22.581
+TER
+ATOM    618  O   qso   570      26.351   8.147  23.821
+TER
+ATOM    619  SI  qsi   571      28.359   5.459  26.055
+TER
+ATOM    620  O   qso   572      27.379   5.759  27.295
+TER
+ATOM    621  O   qso   573      25.671   7.467  21.341
+TER
+ATOM    622  O   qso   574      28.059   6.439  24.815
+TER
+ATOM    623  O   qso   575      24.890   5.658  26.552
+TER
+ATOM    624  O   qso   576      28.840   8.248  23.078
+TER
+END

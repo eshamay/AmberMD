@@ -1,0 +1,105 @@
+!!index array str
+ "qtz"
+!entry.qtz.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "SI1" "SI" 0 1 131075 1 14 1.283000
+ "O1" "OB" 0 1 131075 2 8 -0.629000
+ "SI2" "SI" 0 1 131075 3 14 1.283000
+ "O2" "OB" 0 1 131075 4 8 -0.629000
+ "SI3" "SI" 0 1 131075 5 14 1.283000
+ "O3" "OB" 0 1 131075 6 8 -0.629000
+ "SI4" "SI" 0 1 131075 7 14 1.283000
+ "O4" "OB" 0 1 131075 8 8 -0.629000
+ "O5" "OB" 0 1 131075 9 8 -0.629000
+ "O6" "OB" 0 1 131075 10 8 -0.629000
+ "O7" "OB" 0 1 131075 11 8 -0.629000
+ "O8" "OB" 0 1 131075 12 8 -0.629000
+!entry.qtz.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "SI1" "SI" 0 -1 0.0
+ "O1" "OB" 0 -1 0.0
+ "SI2" "SI" 0 -1 0.0
+ "O2" "OB" 0 -1 0.0
+ "SI3" "SI" 0 -1 0.0
+ "O3" "OB" 0 -1 0.0
+ "SI4" "SI" 0 -1 0.0
+ "O4" "OB" 0 -1 0.0
+ "O5" "OB" 0 -1 0.0
+ "O6" "OB" 0 -1 0.0
+ "O7" "OB" 0 -1 0.0
+ "O8" "OB" 0 -1 0.0
+!entry.qtz.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qtz.unit.childsequence single int
+ 1
+!entry.qtz.unit.connect array int
+ 0
+ 0
+!entry.qtz.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 9 1
+ 1 2 1
+ 3 10 1
+ 3 4 1
+ 3 12 1
+ 3 6 1
+ 5 6 1
+ 5 9 1
+ 7 8 1
+ 7 11 1
+ 7 10 1
+!entry.qtz.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+!entry.qtz.unit.name single str
+ ""
+!entry.qtz.unit.positions table  dbl x  dbl y  dbl z
+ -0.995000 -0.995000 -3.474000
+ -1.295000 -1.975000 -2.234000
+ 0.995000 0.995000 0.0
+ 1.295000 1.975000 1.240000
+ -1.494000 1.494000 -1.737000
+ -0.514000 1.194000 -0.497000
+ 1.494000 -1.494000 1.737000
+ 0.514000 -1.194000 2.977000
+ -1.194000 0.514000 -2.977000
+ 1.194000 -0.514000 0.497000
+ 3.003000 -1.295000 2.234000
+ 1.975000 1.295000 -1.240000
+!entry.qtz.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.qtz.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "SIO" 0 15 1 "?" 0
+!entry.qtz.unit.residuesPdbSequenceNumber array int
+ 1
+!entry.qtz.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.qtz.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
